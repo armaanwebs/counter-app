@@ -1,0 +1,49 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    background: url("background.jpg");
+    height: 100vh;
+}
+
+h1{
+    font-family: Poppins;
+    color: #fff;
+    text-align: center;
+}
+h2{
+    font-family: Inter;
+    font-size: 48px;
+    padding-top: 10px;
+    color: #1B66C9;
+}
+p{
+    font-family: Inter;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.container{
+    background-color: #ffffffb2;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+#increment-btn{
+    background-color: #555;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    padding: 8px 30px;
+    font-family: Poppins;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#save-btn{
+    background-color: #1B66C9;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    padding: 8px 30px;
+    font-family: Poppins;
+    cursor: pointer;
+}
